@@ -22,6 +22,7 @@ yay -S visual-studio-code-bin micromamba-bin
 eval "$(micromamba shell hook --shell fish)"
 micromamba config append channels conda-forge
 micromamba self-update
+micromamba shell init --shell fish --root-prefix=~/micromamba
 ```
 
 ## Config
