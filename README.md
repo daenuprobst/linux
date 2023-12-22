@@ -2,7 +2,7 @@
 
 ## Install
 ```bash
-pacman -S fish neovim qtile ttf-jetbrains-mono-nerd alacritty
+pacman -S fish neovim qtile ttf-0xproto-nerd alacritty
 ```
 
 - Reboot or logout for using qtile.
