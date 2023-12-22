@@ -1,2 +1,5 @@
-# linux
-My linux configs.
+# LINUX
+
+## Install
+
+## Config
