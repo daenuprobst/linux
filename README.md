@@ -2,7 +2,7 @@
 
 ## Install
 ```bash
-pacman -S fish neovim btop qtile ttf-0xproto-nerd ttf-firacode-nerd ttf-jetbrains-mono-nerd alacritty rofi rofimoji  rofi-calc eog eog-plugins
+pacman -S fish neovim btop qtile ttf-0xproto-nerd ttf-firacode-nerd ttf-jetbrains-mono-nerd alacritty rofi rofimoji rofi-calc eog eog-plugins picom
 ```
 
 - Reboot or logout for using qtile.
