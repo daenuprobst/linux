@@ -26,9 +26,15 @@ micromamba shell init --shell fish --root-prefix=~/micromamba
 ```
 
 - eval ssh-agent in fish
-- 
+
 ```bash
 eval (ssh-agent -c)
+```
+
+- Set lockscreen background image
+
+```bash
+betterlockscreen -u [path]
 ```
 
 ## Config
