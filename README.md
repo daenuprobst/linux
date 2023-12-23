@@ -38,3 +38,7 @@ betterlockscreen -u [path]
 ```
 
 ## Config
+
+```bash
+chmod +x ~/.config/qtile/autostart_once.sh
+```
