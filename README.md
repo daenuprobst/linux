@@ -2,7 +2,7 @@
 
 ## Install
 ```bash
-pacman -S fish neovim btop qtile ttf-0xproto-nerd ttf-firacode-nerd ttf-jetbrains-mono-nerd alacritty rofi rofimoji rofi-calc
+pacman -S fish neovim btop qtile ttf-0xproto-nerd ttf-firacode-nerd ttf-jetbrains-mono-nerd alacritty rofi rofimoji  rofi-calc eog eog-plugins
 ```
 
 - Reboot or logout for using qtile.
@@ -13,7 +13,7 @@ chsh -s /usr/bin/fish
 ```
 
 ```bash
-yay -S visual-studio-code-bin micromamba-bin qtile-extras
+yay -S visual-studio-code-bin micromamba-bin qtile-extras betterlockscreen 
 ```
 
 - Finish setting up micromamba
