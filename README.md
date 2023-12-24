@@ -13,7 +13,7 @@ chsh -s /usr/bin/fish
 ```
 
 ```bash
-yay -S visual-studio-code-bin micromamba-bin qtile-extras betterlockscreen 
+yay -S visual-studio-code-bin micromamba-bin qtile-extras betterlockscreen ocs-url
 ```
 
 - Finish setting up micromamba
