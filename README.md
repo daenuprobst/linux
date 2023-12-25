@@ -41,4 +41,5 @@ betterlockscreen -u [path]
 
 ```bash
 chmod +x ~/.config/qtile/autostart_once.sh
+xdg-mime default sioyek.desktop application/pdf
 ```
