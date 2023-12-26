@@ -2,7 +2,7 @@
 
 ## Install
 ```bash
-pacman -S fish neovim btop qtile ttf-0xproto-nerd ttf-firacode-nerd ttf-jetbrains-mono-nerd alacritty rofi rofimoji rofi-calc eog eog-plugins picom thunar thunar-archive-plugin flameshot obs-studio obsidian
+pacman -S fish neovim btop qtile ttf-0xproto-nerd ttf-firacode-nerd ttf-jetbrains-mono-nerd kitty rofi rofimoji rofi-calc eog eog-plugins picom thunar thunar-archive-plugin flameshot obs-studio obsidian nnn
 ```
 
 - Reboot or logout for using qtile.
@@ -13,7 +13,7 @@ chsh -s /usr/bin/fish
 ```
 
 ```bash
-yay -S visual-studio-code-bin micromamba-bin qtile-extras betterlockscreen ocs-url streamdeck-ui sioyek
+yay -S visual-studio-code-bin micromamba-bin qtile-extras betterlockscreen ocs-url streamdeck-ui sioyek lsix-git
 ```
 
 - Finish setting up micromamba
@@ -42,4 +42,9 @@ betterlockscreen -u [path]
 ```bash
 chmod +x ~/.config/qtile/autostart_once.sh
 xdg-mime default sioyek.desktop application/pdf
+```
+nnn config
+```bash
+sh -c "$(curl -Ls https://raw.githubusercontent.com/jarun/nnn/master/plugins/getplugs)"
+export NNN_PLUG='v:imgview;b:nbak;o:organize;r:renamer;s:suedit;x:xdgdefault'
 ```
