@@ -2,7 +2,7 @@
 
 ## Install
 ```bash
-pacman -S fish neovim btop qtile ttf-0xproto-nerd ttf-firacode-nerd ttf-jetbrains-mono-nerd kitty rofi rofimoji rofi-calc eog eog-plugins picom thunar thunar-archive-plugin flameshot obs-studio obsidian nnn go
+pacman -S fish neovim btop qtile ttf-0xproto-nerd ttf-firacode-nerd ttf-jetbrains-mono-nerd kitty rofi rofimoji rofi-calc eog eog-plugins picom thunar thunar-archive-plugin flameshot obs-studio obsidian nnn go rustup
 ```
 
 - Reboot or logout for using qtile.
@@ -47,4 +47,9 @@ nnn config
 ```bash
 sh -c "$(curl -Ls https://raw.githubusercontent.com/jarun/nnn/master/plugins/getplugs)"
 export NNN_PLUG='v:imgview;b:nbak;o:organize;r:renamer;s:suedit;x:xdgdefault'
+```
+rust
+```bash
+rustup default stable
+rustup toolchain install stable --component rust-src
 ```
