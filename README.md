@@ -53,3 +53,8 @@ rust
 rustup default stable
 rustup toolchain install stable --component rust-src
 ```
+
+docker
+```bash
+sudo systemctl enable docker.service
+```
