@@ -56,5 +56,6 @@ rustup toolchain install stable --component rust-src
 
 docker
 ```bash
-sudo systemctl enable docker.service
+sudo systemctl enable docker.service	
+sudo usermod -aG docker $USER
 ```
