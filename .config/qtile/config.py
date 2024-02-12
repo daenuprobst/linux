@@ -28,7 +28,7 @@ import os
 import subprocess
 
 from libqtile import bar, layout, widget, hook
-from libqtile.config import Click, Drag, Group, Key, Match, Screen
+from libqtile.config import Click, Drag, Group, Key, Match, Screen, ScratchPad, DropDown
 from libqtile.lazy import lazy
 
 mod = "mod4"
@@ -54,6 +54,7 @@ keys = [
         lazy.spawn("betterlockscreen -l dim -q"),
         desc="Lock the screen",
     ),
+    Key([], "Print", lazy.spawn("flameshot gui"), desc="Take a screenshot"),
     # Switch between windows
     Key([mod], "Left", lazy.layout.left(), desc="Move focus to left"),
     Key([mod], "Right", lazy.layout.right(), desc="Move focus to right"),
@@ -118,6 +119,7 @@ keys = [
     # Navigating groups
     Key([mod], "q", lazy.screen.prev_group(), desc="Go to previous group"),
     Key([mod], "w", lazy.screen.next_group(), desc="Go to next group"),
+    Key([mod], "a", lazy.group["scratchpad"].dropdown_toggle("term")),
 ]
 
 groups = [Group(i, label="") for i in "123456789"]
@@ -145,6 +147,18 @@ for i in groups:
             #     desc="move focused window to group {}".format(i.name)),
         ]
     )
+
+# Add ScratchPad to groups list
+groups.append(
+    ScratchPad(
+        "scratchpad",
+        [
+            DropDown(
+                "term", terminal, opacity=0.8, height=0.45, width=0.5, x=0.25, y=-0.005
+            ),
+        ],
+    )
+)
 
 layouts = [
     # layout.Columns(
@@ -239,18 +253,18 @@ screens = [
 ]
 
 # Drag floating layouts.
-mouse = [
-    Drag(
-        [mod],
-        "Button1",
-        lazy.window.set_position_floating(),
-        start=lazy.window.get_position(),
-    ),
-    Drag(
-        [mod], "Button3", lazy.window.set_size_floating(), start=lazy.window.get_size()
-    ),
-    Click([mod], "Button2", lazy.window.bring_to_front()),
-]
+# mouse = [
+#     Drag(
+#         [mod],
+#         "Button1",
+#         lazy.window.set_position_floating(),
+#         start=lazy.window.get_position(),
+#     ),
+#     Drag(
+#         [mod], "Button3", lazy.window.set_size_floating(), start=lazy.window.get_size()
+#     ),
+#     Click([mod], "Button2", lazy.window.bring_to_front()),
+# ]
 
 dgroups_key_binder = None
 dgroups_app_rules = []  # type: list
@@ -259,6 +273,9 @@ bring_front_click = False
 floats_kept_above = True
 cursor_warp = False
 floating_layout = layout.Floating(
+    border_width=1,
+    border_focus="#585b70",
+    border_normal="#45475a",
     float_rules=[
         # Run the utility of `xprop` to see the wm class and name of an X client.
         *layout.Floating.default_float_rules,
@@ -268,7 +285,7 @@ floating_layout = layout.Floating(
         Match(wm_class="ssh-askpass"),  # ssh-askpass
         Match(title="branchdialog"),  # gitk
         Match(title="pinentry"),  # GPG key password entry
-    ]
+    ],
 )
 auto_fullscreen = True
 focus_on_window_activation = "smart"
