@@ -1,4 +1,4 @@
-# LINUX
+# ARCH
 
 ## Install
 ```bash
@@ -59,3 +59,6 @@ docker
 sudo systemctl enable docker.service	
 sudo usermod -aG docker $USER
 ```
+
+# NIXOS
+Hardware configs: https://github.com/NixOS/nixos-hardware/tree/master
