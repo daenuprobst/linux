@@ -62,3 +62,8 @@ sudo usermod -aG docker $USER
 
 # NIXOS
 Hardware configs: https://github.com/NixOS/nixos-hardware/tree/master
+
+Enable fractional scaling
+```bash
+dconf write /org/gnome/mutter/experimental-features "['scale-monitor-framebuffer']"
+```
