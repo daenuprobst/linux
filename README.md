@@ -37,6 +37,13 @@ eval (ssh-agent -c)
 betterlockscreen -u [path]
 ```
 
+- Disable gdm and enable ly
+
+```bash
+systemctl disable gdm.service
+systemctl enable ly.service
+```
+
 ## Config
 
 ```bash
