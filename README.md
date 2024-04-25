@@ -2,7 +2,7 @@
 
 ## Install
 ```bash
-pacman -Syy fish neovim btop qtile ttf-0xproto-nerd ttf-firacode-nerd ttf-jetbrains-mono-nerd kitty rofi rofimoji rofi-calc eog eog-plugins picom thunar thunar-archive-plugin flameshot obs-studio obsidian nnn go rustup docker fd thefuck yazi polkit-gnome inkscape helix qpdf
+pacman -Syy fish neovim btop qtile ttf-0xproto-nerd ttf-firacode-nerd ttf-jetbrains-mono-nerd kitty rofi rofimoji rofi-calc eog eog-plugins picom thunar thunar-archive-plugin flameshot obs-studio obsidian nnn go rustup docker fd thefuck yazi polkit-gnome inkscape helix qpdf ly
 ```
 
 - Reboot or logout for using qtile.
@@ -13,7 +13,7 @@ chsh -s /usr/bin/fish
 ```
 
 ```bash
-yay -S visual-studio-code-bin micromamba-bin qtile-extras betterlockscreen ocs-url streamdeck-ui sioyek lsix-git lightdm-settings onedrive-abraunegg nvidia-container-toolkit
+yay -S visual-studio-code-bin micromamba-bin qtile-extras betterlockscreen ocs-url streamdeck-ui sioyek lsix-git onedrive-abraunegg nvidia-container-toolkit
 ```
 
 - Finish setting up micromamba
