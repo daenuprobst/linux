@@ -2,7 +2,7 @@
 
 ## Install
 ```bash
-pacman -Syy fish neovim btop qtile ttf-0xproto-nerd ttf-firacode-nerd ttf-jetbrains-mono-nerd kitty rofi rofimoji rofi-calc eog eog-plugins picom thunar thunar-archive-plugin flameshot obs-studio obsidian nnn go rustup docker fd thefuck yazi polkit-gnome inkscape helix qpdf ly nm-connection-editor
+pacman -Syy fish neovim btop qtile ttf-0xproto-nerd ttf-firacode-nerd ttf-jetbrains-mono-nerd kitty rofi rofimoji rofi-calc eog eog-plugins picom thunar thunar-archive-plugin flameshot obs-studio obsidian nnn go rustup docker fd thefuck yazi polkit-gnome inkscape helix qpdf ly nm-connection-editor brightnessctl
 ```
 
 - Reboot or logout for using qtile.
