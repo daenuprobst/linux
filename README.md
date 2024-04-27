@@ -68,6 +68,7 @@ sudo usermod -aG docker $USER
 ```
 
 ## Themes
-Icons (`/home/daenu/.local/share/icons/Fluent-purple-dark`): https://www.gnome-look.org/p/1477945
+Icons: https://www.gnome-look.org/p/1477945
+Cursors: https://www.gnome-look.org/p/1795042
 
 Then set with `lxappearance`. The GTK theme for catppuccin is already installed from AUR.
