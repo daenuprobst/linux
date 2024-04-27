@@ -67,10 +67,5 @@ sudo systemctl enable docker.service
 sudo usermod -aG docker $USER
 ```
 
-# NIXOS
-Hardware configs: https://github.com/NixOS/nixos-hardware/tree/master
-
-Enable fractional scaling
-```bash
-dconf write /org/gnome/mutter/experimental-features "['scale-monitor-framebuffer']"
-```
+## Themes
+Icons (`/home/daenu/.local/share/icons/Fluent-purple-dark`): https://www.gnome-look.org/p/1477945
