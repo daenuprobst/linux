@@ -69,3 +69,5 @@ sudo usermod -aG docker $USER
 
 ## Themes
 Icons (`/home/daenu/.local/share/icons/Fluent-purple-dark`): https://www.gnome-look.org/p/1477945
+
+Then set with `lxappearance`.
