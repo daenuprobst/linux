@@ -13,7 +13,7 @@ chsh -s /usr/bin/fish
 ```
 
 ```bash
-yay -S visual-studio-code-bin micromamba-bin qtile-extras betterlockscreen ocs-url streamdeck-ui sioyek lsix-git onedrive-abraunegg nvidia-container-toolkit
+yay -S visual-studio-code-bin micromamba-bin qtile-extras betterlockscreen ocs-url streamdeck-ui sioyek lsix-git onedrive-abraunegg nvidia-container-toolkit catppuccin-gtk-theme-mocha
 ```
 
 - Finish setting up micromamba
@@ -70,4 +70,4 @@ sudo usermod -aG docker $USER
 ## Themes
 Icons (`/home/daenu/.local/share/icons/Fluent-purple-dark`): https://www.gnome-look.org/p/1477945
 
-Then set with `lxappearance`.
+Then set with `lxappearance`. The GTK theme for catppuccin is already installed from AUR.
