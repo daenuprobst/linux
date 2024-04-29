@@ -67,6 +67,11 @@ sudo systemctl enable docker.service
 sudo usermod -aG docker $USER
 ```
 
+openconnect with 2fa
+```bash
+alias vpnconnect="sudo echo \"sudo\" && openconnect https://<vpn_server> --useragent=AnyConnect --cookieonly | sudo openconnect https://<vpn_server> --useragent=AnyConnect --cookie-on-stdin"
+```
+
 ## Themes
 Icons: https://www.gnome-look.org/p/1477945
 Cursors: https://www.gnome-look.org/p/1795042
