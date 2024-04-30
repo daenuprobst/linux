@@ -54,6 +54,7 @@ keys = [
         lazy.spawn("betterlockscreen -l dim -q"),
         desc="Lock the screen",
     ),
+    Key([], "Print", lazy.spawn("flameshot gui"), desc="Take a screenshot"),
     # Switch between windows
     Key([mod], "Left", lazy.layout.left(), desc="Move focus to left"),
     Key([mod], "Right", lazy.layout.right(), desc="Move focus to right"),
