@@ -77,3 +77,8 @@ Icons: https://www.gnome-look.org/p/1477945
 Cursors: https://www.gnome-look.org/p/1795042
 
 Then set with `lxappearance`. The GTK theme for catppuccin is already installed from AUR.
+
+## Hyprland
+```bash
+pacman -Syy hyprland waybar hyprpaper
+```
