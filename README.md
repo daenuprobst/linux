@@ -72,6 +72,11 @@ openconnect with 2fa
 alias vpnconnect="sudo echo \"sudo\" && openconnect https://<vpn_server> --useragent=AnyConnect --cookieonly | sudo openconnect https://<vpn_server> --useragent=AnyConnect --cookie-on-stdin"
 ```
 
+helix
+```bash
+sudo ln -s $(which helix) /bin/hx
+```
+
 ## Themes
 Icons: https://www.gnome-look.org/p/1477945
 Cursors: https://www.gnome-look.org/p/1795042
