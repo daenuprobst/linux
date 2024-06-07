@@ -13,7 +13,7 @@ chsh -s /usr/bin/fish
 ```
 
 ```bash
-yay -S visual-studio-code-bin micromamba-bin qtile-extras betterlockscreen ocs-url streamdeck-ui sioyek lsix-git onedrive-abraunegg nvidia-container-toolkit catppuccin-gtk-theme-mocha pyright
+yay -S visual-studio-code-bin micromamba-bin qtile-extras betterlockscreen ocs-url streamdeck-ui sioyek lsix-git onedrive-abraunegg nvidia-container-toolkit catppuccin-gtk-theme-mocha pyright typst-lsp
 ```
 
 - Finish setting up micromamba
