@@ -77,6 +77,8 @@ helix
 sudo ln -s $(which helix) /bin/hx
 ```
 
+pacman/yay: Change `debug` to `!debug` in `/etc/makepkg.conf`.
+
 ## Themes
 Icons: https://www.gnome-look.org/p/1477945
 Cursors: https://www.gnome-look.org/p/1795042
