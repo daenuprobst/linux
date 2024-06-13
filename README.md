@@ -55,6 +55,7 @@ nnn config
 sh -c "$(curl -Ls https://raw.githubusercontent.com/jarun/nnn/master/plugins/getplugs)"
 export NNN_PLUG='v:imgview;b:nbak;o:organize;r:renamer;s:suedit;x:xdgdefault'
 ```
+
 rust
 ```bash
 rustup default stable
@@ -74,6 +75,7 @@ alias vpnconnect="sudo echo \"sudo\" && openconnect https://<vpn_server> --usera
 
 helix
 ```bash
+set -gx EDITOR
 sudo ln -s $(which helix) /bin/hx
 ```
 
