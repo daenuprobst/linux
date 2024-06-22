@@ -25,10 +25,10 @@ micromamba self-update
 micromamba shell init --shell fish --root-prefix=~/micromamba
 ```
 
-- eval ssh-agent in fish
+- Setup tmux plugins
 
 ```bash
-eval (ssh-agent -c)
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 ```
 
 - Set lockscreen background image
