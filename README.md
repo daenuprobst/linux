@@ -2,7 +2,7 @@
 
 ## Install
 ```bash
-pacman -Syy zsh fzf stow zoxide eza bat tmux neovim yazi btop qtile ttf-maple ttf-firacode-nerd ttf-jetbrains-mono-nerd kitty rofi rofimoji rofi-calc lightdm-gtk-greeter eog eog-plugins picom thunar thunar-archive-plugin flameshot obs-studio obsidian go rustup docker fd thefuck yazi polkit-gnome inkscape helix qpdf ly nm-connection-editor brightnessctl github-cli ruff-lsp ripgrep xclip python-pipx discord diskonaut
+pacman -Syy zsh fzf stow zoxide eza bat tmux neovim yazi btop qtile ttf-maple ttf-firacode-nerd ttf-jetbrains-mono-nerd kitty rofi rofimoji rofi-calc lightdm-gtk-greeter eog eog-plugins picom thunar thunar-archive-plugin flameshot obs-studio obsidian go rustup docker fd thefuck yazi polkit-gnome inkscape helix qpdf ly nm-connection-editor brightnessctl github-cli ruff-lsp ripgrep xclip python-pipx discord diskonaut lazygit
 ```
 
 - Reboot or logout for using qtile.
