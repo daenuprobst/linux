@@ -23,6 +23,8 @@ eval "$(micromamba shell hook --shell fish)"
 micromamba config append channels conda-forge
 micromamba self-update
 micromamba shell init --shell fish --root-prefix=~/micromamba
+
+sudo ln -s /usr/bin/micromamba /usr/bin/conda
 ```
 
 - Setup tmux plugins
