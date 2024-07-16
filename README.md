@@ -91,6 +91,6 @@ Then set with `lxappearance`. The GTK theme for catppuccin is already installed 
 
 ## CachyOS (Hyprland)
 ```bash
-pacman -Syy hyprlock wlogout kitty yazi stow yay zoxide ttf-iosevkaterm-nerd fd ripgrep firefox lazygit pyright nodejs npm
+pacman -Syy neovim hyprlock wlogout kitty yazi stow yay zoxide ttf-iosevkaterm-nerd fd ripgrep firefox lazygit pyright nodejs npm
 yay -S oh-my-posh
 ```
