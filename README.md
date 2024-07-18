@@ -62,6 +62,7 @@ rust
 ```bash
 rustup default stable
 rustup toolchain install stable --component rust-src
+rustup component add rust-analyzer
 ```
 
 docker
