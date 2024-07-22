@@ -95,3 +95,8 @@ Then set with `lxappearance`. The GTK theme for catppuccin is already installed 
 pacman -Syy neovim hyprlock wlogout kitty yazi stow yay zoxide ttf-iosevkaterm-nerd fd ripgrep firefox lazygit pyright nodejs npm rustup csvlens
 yay -S oh-my-posh waypaper micromamba-bin proton-pass-bin
 ```
+
+Set default browser to firefox (not cachy browser)
+```bash
+xdg-settings set default-web-browser firefox.desktop
+```
