@@ -105,3 +105,6 @@ Set default browser to firefox (not cachy browser)
 ```bash
 xdg-settings set default-web-browser firefox.desktop
 ```
+
+Firefox Color theme:
+[Theme](https://color.firefox.com/?theme=XQAAAAInAgAAAAAAAABBqYhm849SCicxcT-BCXcGHf3p79EhVPS3-jvQ_Kw8eaBdnrbHMhZhXx7H67W4vuBchVhCxt9o2Jz_Cg2qOXgtjKp_lZB8Qf_ZiZ_xjMq2lCE8jHzVkJiX8rEzneMPJxJMDB-IWd8Rju4sf1XvDQCNFjwwaUd9bHiwwQezEDKG8pIUyOXl_bgp3SeH0CBw5M2rXieWWXrT-pJA9km_KM7Z8daFdj2KXQwn-i1SGKDaXhBJB8pf1OiRbFXpyXGjSEhKvOLwqgYXwFT86gdSCv2uZHrlmj2_8HIv58CLFuTFtKj73Es83Au8T7eHDpYO8YuBravkgSGlMD2CDaGpziENlLs4hSyGmB2ad1Afm_b_qhqWsDdeJfFrMBB98Exf3puhWrfdTWmxuLMgrNo3uxJtqKcK223Y__3TFM8)
