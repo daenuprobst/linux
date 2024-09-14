@@ -93,13 +93,38 @@ Then set with `lxappearance`. The GTK theme for catppuccin is already installed 
 ## CachyOS (Hyprland)
 ```bash
 pacman -Syy neovim hyprlock wlogout kitty yazi stow yay zoxide ttf-iosevkaterm-nerd fd ripgrep firefox lazygit pyright nodejs npm rustup visidata openconnect blueman
-yay -S oh-my-posh waypaper micromamba-bin proton-pass-bin network-manager-applet nwg-displays
+yay -S oh-my-posh waypaper micromamba-bin proton-pass-bin network-manager-applet nwg-displays greetd-tuigreet
 ```
 
 Create monitor config:
-´´´bash
+```bash
 nwg-displays
-´´´
+```
+
+Setup greetd (might need to delete current config in case of error):
+```bash
+systemctl enable greetd.service
+```
+
+Configure greetd (`/etc/greetd/config.toml`):
+```toml
+[terminal]
+# The VT to run the greeter on. Can be "next", "current" or a number
+# designating the VT.
+vt = 1
+
+# The default session, also known as the greeter.
+[default_session]
+
+# `agreety` is the bundled agetty/login-lookalike. You can replace `/bin/sh`
+# with whatever you want started, such as `sway`.
+command = "tuigreet --cmd Hyprland"
+
+# The user to run the command as. The privileges this user must have depends
+# on the greeter. A graphical greeter may for example require the user to be
+# in the `video` group.
+user = "greeter"
+```
 
 Set default browser to firefox (not cachy browser)
 ```bash
