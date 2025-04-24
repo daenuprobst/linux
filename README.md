@@ -125,10 +125,9 @@ command = "tuigreet -r --cmd Hyprland"
 # in the `video` group.
 user = "greeter"
 ```
-
-Set default browser to firefox (not cachy browser)
+Install nerdfont
 ```bash
-xdg-settings set default-web-browser firefox.desktop
+getnf -i Monaspace
 ```
 
 Firefox Color theme:
