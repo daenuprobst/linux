@@ -92,18 +92,17 @@ Then set with `lxappearance`. The GTK theme for catppuccin is already installed 
 
 ## CachyOS (Hyprland)
 ```bash
-pacman -Syy neovim hyprlock hyprpaper hyprcurso wlogout kitty yazi stow yay zoxide ttf-iosevkaterm-nerd ttf-hack-nerd fd ripgrep firefox lazygit pyright nodejs npm rustup visidata openconnect blueman csvlens fx adw-gtk-theme python-pywal bottom
+pacman -Syy neovim hyprlock hyprpaper hyprcurso wlogout kitty yazi stow yay zoxide ttf-iosevkaterm-nerd ttf-hack-nerd fd ripgrep firefox lazygit pyright nodejs npm rustup visidata openconnect blueman csvlens fx adw-gtk-theme python-pywal bottom starship
 yay -S oh-my-posh waypaper micromamba-bin proton-pass-bin network-manager-applet nwg-displays greetd-tuigreet ags-hyprpanel-git ptpython getnf
 ```
 
 ```bash
 micromamba config append channels conda-forge
 micromamba self-update
+sudo ln -s /usr/bin/micromamba /usr/bin/conda
 
 # If dotfiles are not downloaded
 micromamba shell init --shell fish --root-prefix=~/micromamba
-
-sudo ln -s /usr/bin/micromamba /usr/bin/conda
 ```
 
 Create monitor config:
