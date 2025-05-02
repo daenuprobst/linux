@@ -96,6 +96,16 @@ pacman -Syy neovim hyprlock hyprpaper hyprcurso wlogout kitty yazi stow yay zoxi
 yay -S oh-my-posh waypaper micromamba-bin proton-pass-bin network-manager-applet nwg-displays greetd-tuigreet ags-hyprpanel-git ptpython getnf
 ```
 
+```bash
+micromamba config append channels conda-forge
+micromamba self-update
+
+# If dotfiles are not downloaded
+micromamba shell init --shell fish --root-prefix=~/micromamba
+
+sudo ln -s /usr/bin/micromamba /usr/bin/conda
+```
+
 Create monitor config:
 ```bash
 nwg-displays
