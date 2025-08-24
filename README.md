@@ -115,6 +115,11 @@ Setup greetd (might need to delete current config in case of error):
 systemctl enable greetd.service
 ```
 
+Setup vicinae (launcher):
+```bash
+systemctl enable --now --user vicinae.service
+```
+
 Configure greetd (`/etc/greetd/config.toml`):
 ```toml
 [terminal]
