@@ -90,6 +90,11 @@ Cursors: https://www.gnome-look.org/p/1795042
 
 Then set with `lxappearance`. The GTK theme for catppuccin is already installed from AUR.
 
+## CachyOS (Cosmic)
+```bash
+pacman -Syy helix starship
+```
+
 ## CachyOS (Hyprland)
 ```bash
 pacman -Syy neovim hyprlock hyprpaper hyprcurso wlogout kitty yazi stow yay zoxide ttf-iosevkaterm-nerd ttf-hack-nerd ttf-0xproto-nerd fd ripgrep firefox lazygit pyright nodejs npm rustup visidata openconnect blueman tabiew fx adw-gtk-theme python-pywal bottom starship satty libqalculate vicinae-bin luarocks glow marksman
