@@ -94,6 +94,9 @@ Then set with `lxappearance`. The GTK theme for catppuccin is already installed 
 ```bash
 pacman -Syy rust go helix starship zoxide yazi stow python-black fx xan bottom glow marksman
 yay -Syy pyrefly-bin dprint-bin
+
+# go version manager
+go install github.com/jmooring/hvm@latest
 ```
 
 ## CachyOS (Hyprland)
