@@ -98,6 +98,8 @@ yay -Syy pyrefly-bin dprint-bin
 # hugo version manager
 go install github.com/jmooring/hvm@latest
 ```
+Theme SDDM
+https://github.com/uiriansan/SilentSDDM?tab=readme-ov-file#AUR-packages-for-arch
 
 ## CachyOS (Hyprland)
 ```bash
