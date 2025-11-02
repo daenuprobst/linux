@@ -92,8 +92,8 @@ Then set with `lxappearance`. The GTK theme for catppuccin is already installed 
 
 ## CachyOS (Cosmic)
 ```bash
-pacman -Syy kitty rust go helix starship lsd zoxide yazi stow python-black uv ruff fx xan bottom glow marksman chezmoi yay zotero ttf-firacode-nerd cmake
-yay -Syy basedpyright-bin dprint-bin ttf-work-sans-variable
+pacman -Syy kitty rust go helix starship lsd zoxide yazi stow python-black uv pyright ruff fx xan bottom glow marksman chezmoi yay zotero ttf-firacode-nerd cmake
+yay -Syy dprint-bin ttf-work-sans-variable
 
 # hugo version manager
 go install github.com/jmooring/hvm@latest
