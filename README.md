@@ -8,6 +8,9 @@ pacman -R firefox alacritty
 
 # hugo version manager
 go install github.com/jmooring/hvm@latest
+
+# dark mode
+gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
 ```
 
 ## Install
