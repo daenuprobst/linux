@@ -1,8 +1,8 @@
 # ARCH
 ## CachyOS (Niri)
 ```bash
-pacman -Syy kitty zen-browser-bin rust go helix starship lsd zoxide yazi stow python-black uv pyright ruff fx xan bottom glow marksman chezmoi paru-bin zotero ttf-firacode-nerd cmake xan grim slurp satty papirus-icon-theme network-manager-applet nwg-look
-paru -Syy dprint-bin ttf-work-sans-variable
+pacman -Syy kitty zen-browser-bin rust go helix starship lsd zoxide yazi stow python-black uv pyright ruff fx xan bottom glow marksman chezmoi yay zotero ttf-firacode-nerd cmake xan grim slurp satty papirus-icon-theme network-manager-applet nwg-look
+yay -Syy dprint-bin ttf-work-sans-variable
 
 pacman -R firefox alacritty
 
@@ -11,6 +11,9 @@ go install github.com/jmooring/hvm@latest
 
 # dark mode
 gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
+
+# Install dank material shell
+curl -fsSL https://install.danklinux.com | sh
 ```
 
 ## Install
