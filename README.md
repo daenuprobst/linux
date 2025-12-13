@@ -14,6 +14,9 @@ gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
 
 # Install dank material shell
 curl -fsSL https://install.danklinux.com | sh
+
+# Configure dank greeter
+https://danklinux.com/docs/dankgreeter/installation
 ```
 
 ## Install
