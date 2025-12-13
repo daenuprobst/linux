@@ -2,7 +2,7 @@
 ## CachyOS (Niri)
 ```bash
 pacman -Syy kitty zen-browser-bin rust go helix starship lsd zoxide yazi stow python-black uv pyright ruff fx xan bottom glow marksman chezmoi yay zotero ttf-firacode-nerd cmake xan grim slurp satty papirus-icon-theme network-manager-applet nwg-look
-yay -Syy dprint-bin ttf-work-sans-variable
+yay -Syy dprint-bin ttf-work-sans-variable greetd-dms-greeter-git
 
 pacman -R firefox alacritty
 
