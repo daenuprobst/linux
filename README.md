@@ -21,6 +21,9 @@ https://danklinux.com/docs/dankgreeter/installation
 # Setup markdown note pkm
 cargo install iwe
 cargo install iwes
+
+# Install filen
+curl -sL https://filen.io/cli.sh | bash
 ```
 
 ## Install
