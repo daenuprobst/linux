@@ -17,6 +17,10 @@ curl -fsSL https://install.danklinux.com | sh
 
 # Configure dank greeter
 https://danklinux.com/docs/dankgreeter/installation
+
+# Setup markdown note pkm
+cargo install iwe
+cargo install iwes
 ```
 
 ## Install
