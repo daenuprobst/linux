@@ -12,15 +12,8 @@ go install github.com/jmooring/hvm@latest
 # dark mode
 gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
 
-# Install dank material shell
-curl -fsSL https://install.danklinux.com | sh
-
-# Configure dank greeter
-https://danklinux.com/docs/dankgreeter/installation
-
-# Setup markdown note pkm
-cargo install iwe
-cargo install iwes
+# Install himalaya e-mail client
+cargo install himalaya --locked --features oauth2
 
 # Install filen
 curl -sL https://filen.io/cli.sh | bash
