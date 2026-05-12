@@ -1,7 +1,7 @@
 # ARCH
 ## CachyOS (Niri)
 ```bash
-pacman -Syy kitty zen-browser-bin rust go helix starship lsd zoxide yazi stow python-black uv pyright ruff fx xan bottom glow marksman chezmoi yay zotero ttf-firacode-nerd cmake xan grim slurp satty papirus-icon-theme network-manager-applet nwg-look qpdf
+pacman -Syy kitty zen-browser-bin rust go helix starship lsd zoxide yazi stow python-black uv pyright ruff fx xan bottom glow marksman chezmoi yay zotero ttf-firacode-nerd cmake xan grim slurp satty papirus-icon-theme network-manager-applet nwg-look qpdf greetd-tuigreet
 yay -Syy dprint-bin ttf-work-sans-variable greetd-dms-greeter-git tdf
 
 pacman -R firefox alacritty
@@ -17,6 +17,14 @@ cargo install himalaya --locked --features oauth2
 
 # Install filen
 curl -sL https://filen.io/cli.sh | bash
+
+# Switch to greetd
+sudo systemctl disable sddm
+sudo systemctl enable greetd
+
+# /etc/greetd/config.toml
+command = "tuigreet --time --remember --asterisks --cmd niri"
+
 ```
 
 ## Install
